@@ -1,0 +1,56 @@
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 121px;
+  padding-bottom: 180px;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: $color-title;
+  }
+
+  p {
+    width: 46%;
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+}
+
+.download__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.download__button {
+  position: relative;
+  margin-right: 30px;
+  padding: 18px 78px 17px 20px;
+  background: linear-gradient(to right, $color-design-btn 0%, $color-design-btn 70%, $color-btn-hover  70%, $color-btn-hover 100%);
+
+  &:focus,
+  &:hover {
+    background: linear-gradient(to right, $color-btn-hover 0%, $color-btn-hover 70%, $color-design-btn  70%, $color-design-btn 100%);
+  }
+}
+
+.download__button-block {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  top: 0;
+  right: 0;
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

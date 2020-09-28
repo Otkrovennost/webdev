@@ -1,0 +1,19 @@
+.button {
+  display: table;
+  padding: 16px 48px;
+  font-size: 14px;
+  line-height: 16px;
+  color: $color-white;
+  background-color: $color-design-btn;
+  border: 0;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.9s;
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    background-color: $color-btn-hover;
+    transition: all 0.9s;
+  }
+}

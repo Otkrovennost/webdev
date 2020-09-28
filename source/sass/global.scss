@@ -11,10 +11,10 @@ html {
 body {
   min-width: 100%;
   margin: 0;
-  // font-size: 16px;
-  // line-height: 19px;
-  // font-family: $font-base;
-  // color: $color-default;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: $font-base;
+  color: $color-default;
 }
 
 a {
@@ -32,22 +32,30 @@ img {
   height: auto;
 }
 
-// .container {
-//   width: 100%;
-//   min-width: 1024px;
-//   max-width: 1210px;
-//   margin: 0 auto;
-//   padding-right: 20px;
-//   padding-left: 20px;
+.container {
+  width: 100%;
+  // min-width: 1024px;
+  // max-width: 1600px;
+  max-width: 1110px;
+  margin: 0 auto;
+  // padding-right: 16.8%;
+  // padding-left: 16.8%;
+  padding-right: 25px;
+  padding-left: 25px;
 
-//   @media ($tablet) {
-//     min-width: 678px;
-//     padding-right: 0;
-//     padding-left: 0;
-//   }
+  // @media (max-width: 1599px) {
+  //   padding-right: 25px;
+  //   padding-left: 25px;
+  // }
 
-//   @media ($mobile) {
-//     min-width: 290px;
-//     max-width: 768px;
-//   }
-// }
+  // @media ($tablet) {
+  //   min-width: 678px;
+  //   padding-right: 0;
+  //   padding-left: 0;
+  // }
+
+  // @media ($mobile) {
+  //   min-width: 290px;
+  //   max-width: 768px;
+  // }
+}

@@ -1,0 +1,26 @@
+.rappresent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 140px;
+}
+
+.rappresent__text {
+  width: calc(100% - 409px);
+  padding-top: 174px;
+  padding-right: 23%;
+
+  h2 {
+    margin: 0 0 22px 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0 0 29px 0;
+    padding: 0;
+  }
+}
